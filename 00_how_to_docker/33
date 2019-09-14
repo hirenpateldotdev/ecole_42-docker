@@ -1,0 +1,4 @@
+#reference: https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
+#(docker images ls -q -a) will list all the id of the images (running and not)
+
+docker image rm $(docker image ls -a -q)

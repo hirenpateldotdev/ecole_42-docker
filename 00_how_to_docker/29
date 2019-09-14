@@ -1,0 +1,3 @@
+#reference: https://docs.docker.com/engine/reference/commandline/service_ps/
+
+docker service ps marines

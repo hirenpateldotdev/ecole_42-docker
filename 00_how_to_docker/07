@@ -1,0 +1,4 @@
+#reference: https://docs.docker.com/engine/reference/commandline/inspect/
+#parse the json file for the overlord for the internal ip address
+
+docker inspect --format "{{ .NetworkSettings.IPAddress }}" overlord

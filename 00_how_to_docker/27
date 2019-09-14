@@ -1,0 +1,3 @@
+#reference: https://docs.docker.com/engine/reference/commandline/service_logs/
+
+docker service logs engineering-bay

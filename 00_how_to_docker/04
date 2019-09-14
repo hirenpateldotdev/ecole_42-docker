@@ -1,0 +1,4 @@
+#reference: https://hub.docker.com/_/hello-world
+#           https://docs.docker.com/engine/reference/commandline/pull/
+
+docker pull hello-world

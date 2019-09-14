@@ -1,0 +1,4 @@
+#reference: https://stackoverflow.com/questions/34051747/get-environment-variable-from-docker-container
+#exec will print all env var spawning-pool
+
+docker exec spawning-pool env

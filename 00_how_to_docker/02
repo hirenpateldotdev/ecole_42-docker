@@ -1,0 +1,3 @@
+#reference: https://docs.docker.com/machine/reference/ip/
+
+docker-machine ip Char

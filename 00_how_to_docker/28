@@ -1,0 +1,3 @@
+#reference: https://docs.docker.com/engine/reference/commandline/service_create/
+
+docker service create --name marines --network overmind --detach -e OC_USERNAME=user -e OC_PASSWD=pass 42school/marine-squad

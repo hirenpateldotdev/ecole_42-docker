@@ -1,0 +1,3 @@
+#apk is a package manager that can be used alpine
+
+apk add git && apk add clang

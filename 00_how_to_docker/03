@@ -1,0 +1,4 @@
+#reference: https://docs.docker.com/machine/reference/env/
+#env command will get env var of the image. env $() will take env var as append them on.
+
+eval $(docker-machine env Char)

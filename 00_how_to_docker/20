@@ -1,0 +1,7 @@
+#reference: https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
+# swarm mode allows the manager to look after a cluster of docker engine and manage their behavior as an whole
+#ssh Char - ssh into the Char the (Manager node)
+#--advertise-addr - publish the manager node address
+
+docker-machine ssh Char
+docker swarm init --advertise-addr $(docker-machine ip Char)

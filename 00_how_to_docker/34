@@ -1,0 +1,4 @@
+#reference: https://docs.docker.com/machine/reference/rm/
+#-y - auto type y as in yes
+
+docker-machine rm -y Aiur

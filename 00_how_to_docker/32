@@ -1,0 +1,5 @@
+#reference: https://docs.docker.com/engine/reference/commandline/rm/
+#-f - force
+#(docker ps -q -a) will list all the id of the containers (running and not)
+
+docker rm -f $(docker ps -q -a)

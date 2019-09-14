@@ -1,0 +1,6 @@
+#https://docs.docker.com/config/containers/logging/
+
+docker logs -f spawning-pool
+
+# -f is for realtime
+# log (verbose mode) is details of what the OS is doing and what drivers and software is loading

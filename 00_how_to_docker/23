@@ -1,0 +1,5 @@
+#reference: https://docs.docker.com/engine/reference/commandline/network_create/
+#ssh into Char
+#run command create overlay
+
+docker-machine ssh Char docker network create -d overlay overmind

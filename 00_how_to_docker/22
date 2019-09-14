@@ -1,0 +1,15 @@
+#reference: https://docs.docker.com/engine/reference/commandline/swarm_init/
+#reference: https://docs.docker.com/engine/reference/commandline/swarm_join-token/
+#ssh into Char and get token to add a worker
+
+docker-machine ssh Char docker swarm join-token worker
+
+#set the node you want to join to env
+#eval - construct command by concat arguments
+
+eval $(docker-machine env Aiur)
+
+#run the commmand that was outputed 
+#ip address might change 
+
+docker swarm join --token SWMTKN-1-59un03slhd2l7ddtzalujarlptt7r39h889qmlwevsth83a3w5-asf6bl6ijnhktg00daouzjb5b 192.168.99.100:2377

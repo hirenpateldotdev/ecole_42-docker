@@ -1,0 +1,4 @@
+#reference: https://docs.docker.com/engine/reference/commandline/service_rm/
+#reference: https://docs.docker.com/engine/reference/commandline/service_ls/
+
+docker service rm $(docker service ls -q)

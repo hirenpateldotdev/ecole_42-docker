@@ -1,0 +1,5 @@
+#reference: https://docs.docker.com/engine/reference/commandline/service_create/
+#-network - attache a network to the service
+#-e is to set env var
+
+docker service create --name orbital-command -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=pass --network overmind rabbitmq

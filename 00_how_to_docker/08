@@ -1,0 +1,5 @@
+#rm will remove the container after done running
+#i will keep STDIN open
+#t will open up a dumb terminal 
+
+docker run -t -i --rm alpine

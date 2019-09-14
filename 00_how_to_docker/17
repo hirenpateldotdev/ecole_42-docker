@@ -1,0 +1,6 @@
+#reference: https://nickjanetakis.com/blog/docker-tip-24-docker-ps-vs-docker-container-ls
+#reference: https://docs.docker.com/engine/reference/commandline/ps/
+#reference: https://docs.docker.com/engine/reference/commandline/container_ls/
+#two syntax can used "docker container ls" or "docker ps"
+
+docker container ls

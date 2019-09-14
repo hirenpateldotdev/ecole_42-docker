@@ -1,0 +1,12 @@
+#reference: https://unix.stackexchange.com/questions/21147/what-are-pseudo-terminals-pty-tty
+#reference: https://docs.docker.com/engine/reference/run/
+#reference: https://docs.docker.com/engine/reference/commandline/exec/
+#-dit in detached mode keep std and have a usable terminal emulator 
+#exec run commands 
+#--env sets env var 
+#pip - python library
+#bind ip 0.0.0.0 to port 3000
+
+docker run -d -i -t --name Abathur -v ~/Abathur:/root -p 3000:3000 python:2-slim
+docker exec Abathur pip install flask
+docker exec --env FLASK_APP=/root/hello.py Abathur flask run --host=0.0.0.0 --port=3000

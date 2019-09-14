@@ -1,0 +1,4 @@
+#reference: https://docs.docker.com/engine/reference/commandline/network_connect/
+#--link	: adds a link to another docker container
+
+docker run -d --name lair -p 8080:80 --link spawning-pool:mysql wordpress
